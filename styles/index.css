@@ -337,7 +337,7 @@ body {
 
 main {
   min-height: calc(100vh - 81.9672131148vw - 62.5vw);
-  background-image: url(/img/bottom-bg.webp);
+  background-image: url(../img/bottom-bg.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom center;
