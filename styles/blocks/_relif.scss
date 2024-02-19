@@ -1,0 +1,26 @@
+.relief {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__item-depth {
+    width: 160px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include s-mobile {
+      font-size: 18px;
+      max-width: 40%;
+    }
+  }
+}
+
+
+
