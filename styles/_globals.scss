@@ -7,9 +7,11 @@
 body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   background-color: var(--bg-color);
   min-height: 100vh;
   line-height: 1.5;
+  position: relative;
   @media (max-width: 320px) {
     font-size: 12px;
   }
@@ -34,7 +36,7 @@ a {
 .section {
   color: #fff;
   padding-block: 15px;
-  z-index: 4;
+  z-index: 11;
   font-size: 18px;
   position: relative;
 }
@@ -43,8 +45,7 @@ a {
   margin-bottom: calc(var(--index)*1);
   font-size: calc(var(--index)*1.5);
   color: #e3f1ff;
-  font-family: 'Arial', sans-serif;
-  font-weight: 900;
+  font-family: 'Arial-b', sans-serif;
 }
 
 .section__container {
