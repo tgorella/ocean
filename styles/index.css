@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Arial";
+  src: url("Arial-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --bg-color: #02658a;
   --text-color: #ffffff;
@@ -364,7 +371,8 @@ a {
   margin-bottom: calc(var(--index) * 1);
   font-size: calc(var(--index) * 1.5);
   color: #e3f1ff;
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: "Arial", Gadget, sans-serif;
+  font-weight: 900;
 }
 
 .section__container {
