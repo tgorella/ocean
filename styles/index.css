@@ -554,9 +554,8 @@ a {
   max-width: 50%;
   transform: translate3d(calc(var(--scroll-top) * 0.7), calc(var(--scroll-top) * -0.1), 10px);
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   left: -24%;
-  top: 50px;
 }
 
 @keyframes jellyFishAnim {
