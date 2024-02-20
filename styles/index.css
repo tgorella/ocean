@@ -371,7 +371,7 @@ a {
   margin-bottom: calc(var(--index) * 1);
   font-size: calc(var(--index) * 1.5);
   color: #e3f1ff;
-  font-family: "Arial", Gadget, sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 900;
 }
 
@@ -399,7 +399,8 @@ a {
 }
 
 .main-header__title {
-  font-family: "Arial Black", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-weight: 900;
   color: var(--text-color);
   font-size: 10vw;
   width: 100%;
@@ -553,7 +554,7 @@ a {
   max-width: 50%;
   transform: translate3d(calc(var(--scroll-top) * 0.7), calc(var(--scroll-top) * -0.1), 10px);
   position: absolute;
-  z-index: -2;
+  z-index: 0;
   left: -24%;
 }
 
